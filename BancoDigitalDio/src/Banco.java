@@ -1,5 +1,6 @@
 
-public class Cliente {
+public class Banco {
+	
 
 	public String nome; 
 }
