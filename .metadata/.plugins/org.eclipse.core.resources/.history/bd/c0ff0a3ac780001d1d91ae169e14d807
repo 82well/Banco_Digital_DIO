@@ -1,5 +1,5 @@
 
-public class Conta implements iConta{
+public class Conta {
 
 	
 	private int agencia;
