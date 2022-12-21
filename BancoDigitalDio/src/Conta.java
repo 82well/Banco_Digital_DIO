@@ -6,7 +6,23 @@ public class Conta implements iConta{
 	private int numero;
 	private double saldo;
 	
+	@Override
+	public void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
 
+	@Override
+	public void depositar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(double valor, Conta contaDestio) {
+		// TODO Auto-generated method stub
+		
+	}
 
 	public int getAgencia() {
 		return agencia;
@@ -19,5 +35,7 @@ public class Conta implements iConta{
 	public double getSaldo() {
 		return saldo;
 	}
+
+
 	
 }
