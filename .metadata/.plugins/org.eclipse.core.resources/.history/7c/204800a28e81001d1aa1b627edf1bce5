@@ -54,12 +54,6 @@ public abstract class Conta implements iConta{
 	public double getSaldo() {
 		return saldo;
 	}
-	
-	protected void ImprimirInfosComuns() {
-		System.out.println(String.format("Agencia: %d", agencia));
-		System.out.println(String.format("Numero: %d", numero));
-		System.out.println(String.format("Saldo: %.2f",saldo));
-	}
 
 
 	
